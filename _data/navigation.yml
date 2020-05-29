@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "About"
-    url: /About
+    url: /about
 
 home: 
   - title: Where to next?
