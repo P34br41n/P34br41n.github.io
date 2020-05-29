@@ -1,0 +1,43 @@
+main: 
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /About
+
+home: 
+  - title: Where to next?
+    children:
+      - title: "Development"
+        url: /Development/
+      - title: "DFIR"
+        url: /DFIR/
+      - title: "Hardening"
+        url: /Hardening/
+      - title: "Identity Access Management"
+        url: /IAM/
+      - title: "IDS/IPS"
+        url: /IPS-IDS/
+      - title: "Lockpicking"
+        url: /Lockpicking/
+      - title: "Misc"
+        url: /Misc/
+      - title: "Mobile"
+        url: /Mobile/
+      - title: "Network"
+        url: /Network/
+      - title: "Pentesting"
+        url: /Pentesting/
+      - title: "Phishing"
+        url: /Phishing/
+      - title: "Radio Frequency"
+        url: /RF/
+      - title: "Reporting"
+        url: /Reporting/
+      - title: "Reverse Engineering"
+        url: /RE/
+      - title: "SIEM"
+        url: /SIEM/
+      - title: "Tools"
+        url: /Tools/
+      - title: "Web"
+        url: /Web/

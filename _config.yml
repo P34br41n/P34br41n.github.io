@@ -1,1 +1,49 @@
-theme: jekyll-theme-modernist
+title: Running With Scissors
+description: Random Cybersecurity related things and thingies!!
+#baseurl: "https://P34br41n.github.io"
+url: "/"
+github_username: P34br41n
+search: true
+
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" 
+words_per_minute: 200
+
+
+author:
+  name: "P34br41n"
+  bio: "Someone in Cybersec"
+  location: "Somewhere in Canada"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://p34br41n.github.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/P34br41n"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      read_time: true
+      layout: single
+      toc: true
+      toc_label: "What's on this page?"
+      sidebar:
+        nav: "home"
