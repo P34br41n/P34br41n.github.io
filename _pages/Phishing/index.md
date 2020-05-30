@@ -10,6 +10,6 @@ Social engineering, templates, designs, ..., will end up here.
 ```
 Coming soon!
 ```
-[Evilginx](./evilginx/)
+[Evilginx](./evilginx)
 
-[GoPhish](./gophish/)
+[GoPhish](./gophish)
