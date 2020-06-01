@@ -15,4 +15,4 @@ title: Wordlists
 [https://hashes.org/hashlists.php](https://hashes.org/hashlists.php)
 
 
-And if you need something a little more custom you can always DIY it.
+And if you need something a little more custom you can always use [crunch](https://tools.kali.org/password-attacks/crunch) or [CeWL](https://github.com/digininja/CeWL) or worst case DIY it.
