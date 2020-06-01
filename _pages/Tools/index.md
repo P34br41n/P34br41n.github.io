@@ -18,6 +18,12 @@ Wanna throw random stuff at your target? Well this is for you then!
 [click me!](./Fuzz/)
 
 
+## Libraries
+Here are some things to make your thingies easier to work with!
+
+[click me!](./Libraries/)
+
+
 ## Wordlists
 Too lazy to build you own? Well so am I 99% of the time!
 
