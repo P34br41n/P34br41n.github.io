@@ -27,8 +27,6 @@ home:
         url: /Network/
       - title: "Pentesting"
         url: /Pentesting/
-      - title: "Phishing"
-        url: /Phishing/
       - title: "Radio Frequency"
         url: /RF/
       - title: "Reporting"
@@ -37,6 +35,8 @@ home:
         url: /RE/
       - title: "SIEM"
         url: /SIEM/
+      - title: "Social Engineering"
+        url: /SE/
       - title: "Tools"
         url: /Tools/
       - title: "Web"
