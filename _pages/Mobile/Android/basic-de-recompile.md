@@ -5,7 +5,7 @@ title: Basic decompiling and recompiling apks
 ## What is this about?
 You have an app on your phone, but you want to change something in it to make it "better" or just because you need to pentest it and that certificate pinning stuff is blocking you or you want to change the way the app works. Well worry not! Everything can be reversed, messed with and rebuilt!
 
-Fun story, a couple years back I was interviewing for a generic position pentester position and one of the senior techs was grilling me on how to pentest Android/apk/..., what to look at, what's considered a security issue, what to do to fix stuff and so on. Then he more or less told me it wasn't possible to decompile, change and recompile an apk when I started explaining how to bypass/drop certificate pinning on a client's app to simplify proxying and sniffing stuff. 
+Fun story, a couple years back I was interviewing for a generic pentester position and one of the senior techs was grilling me on how to pentest Android/apk/..., what to look at, what's considered a security issue, what to do to fix stuff and so on. Then he more or less told me it wasn't possible to decompile, change and recompile an apk when I started explaining how to bypass/drop certificate pinning on a client's app to simplify proxying and sniffing stuff. 
 
 This might happen to you too! If it does, just bail tf out of the interview ASAFP in any way possible and find somewhere else to work at, because this is the same type of reasoning behind the whole "We've never been hacked and my stuff is unhackable anyway, I don't need to get it pentested"...
 
@@ -24,7 +24,7 @@ Check these out and go through the options!
 [Keytool](https://openjdk.java.net/tools/index.html)
 [Zipalign](https://developer.android.com/studio/command-line/zipalign)
 
-You might also want to check out the [APK Signature Scheme](https://source.android.com/security/apksigning) and [apksigner](https://developer.android.com/studio/command-line/apksigner.html) depending on what you're doing, but I'll stay on the basics here and go with "oldschool" jarsigner.
+You might also want to check out the [APK Signature Scheme](https://source.android.com/security/apksigning) and [apksigner](https://developer.android.com/studio/command-line/apksigner.html) depending on what you're doing. I'll stay on the basics here and go with "oldschool" jarsigner.
 
 Note that if you're going to use apksigner instead of jarsigner, you need to zipalign before signing not after...
 
@@ -60,6 +60,6 @@ And you're all setup to click at least treefiddy times quicker on your cookie cl
 
 
 #### Nice, but what is this good for?
-Well lets say you have to pentest an app and don't have anything but some random phone laying around. Your computer already has VMs inside of VMs and can't handle emulating another one, your frida hooking skills are meh at best and you notice that there is cert pinning in the app and adding a cert to your trusted store doesn't work.
+Well lets say you have to pentest an app and don't have anything but some random phone laying around. Your computer already has VMs inside of VMs and can't handle emulating Android on another one, your frida hooking skills are meh at best and you notice that there is certificate pinning in the app and adding a cert to your trusted store doesn't work.
 
-Well you're gonna have to either replace the the pinned cert with your own or patch the code that checks the pinned cert. Which is where all of this comes in. 
+Which means you're gonna have to either replace the the pinned cert with your own or patch the code that checks the pinned cert. Which is where all of this comes in!
