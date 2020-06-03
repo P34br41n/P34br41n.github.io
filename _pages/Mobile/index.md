@@ -4,9 +4,16 @@ title: Mobile
 ---
 
 # What is this about?
-Androis, IOS and whatever else, will end up here.
+Android, IOS and whatever else, will end up here.
 
 
-```
-Nothing here yet...
-```
+## Android
+*Bleep, bloop, I'm a robot*
+
+[click me!](./Android/)
+
+
+## IOS
+Hope you like them Apples!
+
+[click me!](./IOS/)
