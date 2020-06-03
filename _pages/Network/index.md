@@ -42,3 +42,8 @@ I want to setup a network!
 
 [click me!](./Router/)
 
+
+## VPNs
+I want to connect to my network remotely
+
+[click me!](./VPN/)
