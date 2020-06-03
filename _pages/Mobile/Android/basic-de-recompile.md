@@ -50,8 +50,8 @@ dex2jar app/your_stuff.dex
 #Decompiling step goes here, pick your tool and RTFM ;)
 apktool b your_modded_app
 keytool keytool -genkey -keyalg <potentially RSA> -keysize <Pick one> -alias <your alias> -keystore <your keystore>
-jarsigner sigalg <potentially SHA1withRSA> -digestalg <Potentially SHA1> -keystore <your keystore> your-new-app.apk <your alias>
-#You can check if everything is OK with the -verify option, if you need/want to
+jarsigner -sigalg <potentially SHA1withRSA> -digestalg <Potentially SHA1> -keystore <your keystore> your-new-app.apk <your alias>
+#You can check if everything is OK with the jarsigner -verify option, if you need/want to
 zipalign -v 4 your-new-app.apk zipaligned-app.apk
 
 adb install zipaligned-app.apk
