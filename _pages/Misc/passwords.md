@@ -5,7 +5,7 @@ title: Passwords
 ## What is this about?
 Yep, we're going there... Passwords, how do they work?
 
-A password is an ordered charset that you give to something and it lets you go to the next step of the automation if it matches the one it has, with a couple of extra rules around it. To attack a password, you either attack the *before* i.e clear text input, or the *after* i.e the hash itself. You can also attack the *how* it's hashed, but that's another story. 
+A password is an ordered charset that you give to something and it lets you go to the next step of the automation if it matches the one it has, with a couple of extra rules around it. To attack a password, you either attack the *before* i.e clear text input, or the *after* i.e the hash itself. You can also attack how it's hashed or whatever is checking the hash, but that's another story. 
 
 ### The usually debated things
 * Length: The longer the password, the more nested loops an attacker will need to go through to get the complete set available.
