@@ -31,7 +31,7 @@ MPn = modified nth block of the plaintext
 * Repeat until n = 1 (yeah IV = 0 so you can't change it)
 
 Now, for the sake of simplicity, we won't need to "fix" anything in the following example and we'll keep the focus on the lib...
-This is a common setup for CTFs, you send a message, the server will encrypt and send you that message back and you have to flip stuff around to bypass something and send it back modifid to get the flag.
+This is a common setup for CTFs, you send a message, the server will encrypt and send you that message back and you have to flip stuff around to bypass something and send it back modified to get the flag.
 
 Lets say you can't send "admin" in your request, but connecting as "admin" gives you the flag. And lets say that the complete message exchanged is *remote-username=X&password=Y* with X and Y being your input.
 

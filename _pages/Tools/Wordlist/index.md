@@ -15,5 +15,6 @@ title: Wordlists
 ## Need Rainbow tables?
 [https://hashes.org/hashlists.php](https://hashes.org/hashlists.php)
 
+[http://project-rainbowcrack.com/table.htm](http://project-rainbowcrack.com/table.htm)
 
 And if you need something a little more custom you can always use [crunch](https://tools.kali.org/password-attacks/crunch) or [CeWL](https://github.com/digininja/CeWL) or worst case DIY it.

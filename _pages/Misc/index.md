@@ -7,6 +7,6 @@ title: Misc
 Whatever doesn't fit into an other category will end up here.
 
 
-```
-Nothing here yet...
-```
+## Passwords
+
+[click me!](./passwords)

@@ -14,6 +14,6 @@ Need standard industry guides and benchmarks?
 
 
 ## NIST
-Need governemnt level of secured environment? 
+Need government level of secured environment? 
 
 [https://nvd.nist.gov/ncp/repository](https://nvd.nist.gov/ncp/repository)

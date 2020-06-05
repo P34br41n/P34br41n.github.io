@@ -10,10 +10,10 @@ This won't be a monologue about RSA vs ECDSA vs Ed25519, or why the only answer 
 Fun story, I had to pentest a "we forgot about this for 20 years, checkout the spiderwebs on it!" website serving "S-HTTP" in another life, which lead me to recoding a basic browser that would talk with it... Fun times with security by obsolescence! :p
 
 
-## Dude I don't care about your lifestory
+## Dude I don't care about your life story
 Alright, alright, here are the goods
 
-### TLS configurartion generator
+### TLS configuration generator
 Use this to generate your config file for whichever software you use to serve your website.
 
 The why is here:

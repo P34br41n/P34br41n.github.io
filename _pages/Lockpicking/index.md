@@ -1,10 +1,10 @@
 ---
 layout: posts
-title: Lockpicking
+title: Lock-picking
 ---
 
 # What is this about?
-Opening locks, impressioning keys, RFID, ..., will end up here.
+Opening locks, key impressioning, RFID, ..., will end up here.
 
 
 ```

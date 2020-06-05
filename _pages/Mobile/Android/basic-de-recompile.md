@@ -10,7 +10,7 @@ Fun story, a couple years back I was interviewing for a generic pentester positi
 This might happen to you too! If it does, just bail tf out of the interview ASAFP in any way possible and find somewhere else to work at, because this is the same type of reasoning behind the whole "We've never been hacked and my stuff is unhackable anyway, I don't need to get it pentested"...
 
 
-## Dude your lifestory isn't interesting!
+## Dude your life story isn't interesting!
 Ok bud, Here's the stuff you're looking for...
 
 ### Step one, the Tools
@@ -60,6 +60,6 @@ And you're all setup to click at least treefiddy times quicker on your cookie cl
 
 
 #### Nice, but what is this good for?
-Well lets say you have to pentest an app and don't have anything but some random phone laying around. Your computer already has VMs inside of VMs and can't handle emulating Android on another one, your frida hooking skills are meh at best and you notice that there is certificate pinning in the app and adding a cert to your trusted store doesn't work.
+Well lets say you have to pentest an app and don't have anything but some random phone laying around. Your computer already has VMs inside of VMs and can't handle emulating Android on another one, your Frida hooking skills are meh at best and you notice that there is certificate pinning in the app and adding a cert to your trusted store doesn't work.
 
 Which means you're gonna have to either replace the the pinned cert with your own or patch the code that checks the pinned cert. Which is where all of this comes in!

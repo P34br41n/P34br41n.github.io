@@ -20,7 +20,7 @@ I want redundancy and a higher uptime and load!
 
 
 ## Modem
-I want to connect to something through internet!
+I want to connect to something through Internet!
 
 [click me!](./Modem/)
 
