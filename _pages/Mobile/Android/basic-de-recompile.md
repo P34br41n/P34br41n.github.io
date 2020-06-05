@@ -31,13 +31,12 @@ Note that if you're going to use apksigner instead of jarsigner, you need to zip
 ### Step two
 
 #### The theory
-Use apktool on your app.apk to get the manifest.xml, folders and .dex files
-Use dex2jar on your .dex files to turn them into .class files
-Use your favorite decompiler to "inspect" the code
-Use apktool again to rebuild the apk
-Generate a key with keytool to sign the apk, if you need a new one
-Use jarsigner to sign the apk
-Use zipalign to align everything so it can be loaded
+* Use dex2jar on your .dex files to turn them into .class files
+* Use your favorite decompiler to "inspect" the code
+* Use apktool again to rebuild the apk
+* Generate a key with keytool to sign the apk, if you need a new one
+* Use jarsigner to sign the apk
+* Use zipalign to align everything so it can be loaded
 
 You just need to run *adb install your-new-app.apk* to push it to your phone, and you're done! 
 
