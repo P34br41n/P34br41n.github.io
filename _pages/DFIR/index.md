@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Digital Forensics & Incident Response
 ---
 
@@ -20,8 +19,6 @@ Shit happens, prepare for it beforehand so that when it does no one starts swing
 
 This is one of those times where you get to chose between compliance, by asking your intern to write random stuff up and checking the "Do you have IR stuff somewhere" box on whatever certification checklist you need to do send in every year, and actual security where you bring all your people in so that everyone knows the [5W1H](https://en.wikipedia.org/wiki/Five_Ws) and won't need to think before reacting to a threat, or worst case scenario they have a flowchart/cheatsheet in *physical* form somewhere they can reach.
 
-This is what we're gonna go over [here](./before)
-
 ### During the incident
 If you're one of those that's there doing stuff when SHTF, then buy yourself a beer and pat yourself on the back, when everything is over ofc. Right now it's too late to think, you need to flip your killswitches, follow procedures, pick up your [imaginary red phone](https://en.wikipedia.org/wiki/Moscow-Washington_hotline) and move on to the next part because the incident already happened and that's about all you can do right now.
 
@@ -37,4 +34,9 @@ But hey, we're entering legal entangled waters here, where everything needs to b
 
 Then comes the public damage control, collateral damage, employee interviews, might even go to a courtroom, who knows! So, fun times with lots of paperwork ahead basically!
 
-This is what we're gonna go over [here](./after)
+## Cool story bro, but I need specific info!
+Np, here it is!
+
+[The Before](./before)
+
+[The After](./after)
