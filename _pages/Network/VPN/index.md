@@ -12,8 +12,4 @@ But remember that at all times your vpn provider will see and can, to a certain 
 
 So put on your tinfoil hat when you turn it on eh? :p
 
-```
-Nothing here yet...
-```
-
 [OpenVPN](./openvpn)
