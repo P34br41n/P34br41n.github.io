@@ -37,6 +37,9 @@ Then comes the public damage control, collateral damage, employee interviews, mi
 ## Cool story bro, but I need specific info!
 Np, here it is!
 
+```
+Coming soon!
+```
 [The Before](./before)
 
 [The After](./after)

@@ -5,39 +5,37 @@ main:
     url: /about
 
 home: 
-  - title: Where to next?
-    children:
-      - title: "Development"
-        url: /Development/
-      - title: "DFIR"
-        url: /DFIR/
-      - title: "Hardening"
-        url: /Hardening/
-      - title: "Identity Access Management"
-        url: /IAM/
-      - title: "IDS/IPS"
-        url: /IPS-IDS/
-      - title: "Lock-picking"
-        url: /Lockpicking/
-      - title: "Misc"
-        url: /Misc/
-      - title: "Mobile"
-        url: /Mobile/
-      - title: "Network"
-        url: /Network/
-      - title: "Pentesting"
-        url: /Pentesting/
-      - title: "Radio Frequency"
-        url: /RF/
-      - title: "Reporting"
-        url: /Reporting/
-      - title: "Reverse Engineering"
-        url: /RE/
-      - title: "SIEM"
-        url: /SIEM/
-      - title: "Social Engineering"
-        url: /SE/
-      - title: "Tools"
-        url: /Tools/
-      - title: "Web"
-        url: /Web/
+  - title: "Development"
+    url: /Development/
+  - title: "DFIR"
+    url: /DFIR/
+  - title: "Hardening"
+    url: /Hardening/
+  - title: "Identity Access Management"
+    url: /IAM/
+  - title: "IDS/IPS"
+    url: /IPS-IDS/
+  - title: "Lock-picking"
+    url: /Lockpicking/
+  - title: "Misc"
+    url: /Misc/
+  - title: "Mobile"
+    url: /Mobile/
+  - title: "Network"
+    url: /Network/
+  - title: "Pentesting"
+    url: /Pentesting/
+  - title: "Radio Frequency"
+    url: /RF/
+  - title: "Reporting"
+    url: /Reporting/
+  - title: "Reverse Engineering"
+    url: /RE/
+  - title: "SIEM"
+    url: /SIEM/
+  - title: "Social Engineering"
+    url: /SE/
+  - title: "Tools"
+    url: /Tools/
+  - title: "Web"
+    url: /Web/

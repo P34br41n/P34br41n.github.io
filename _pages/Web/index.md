@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Web
 ---
 
@@ -9,7 +8,6 @@ WAFs, data sanitization, XSS, CSRF, ..., will end up here.
 ```
 Coming soon!
 ```
-
 [CSRF](./csrf)
 
 [Deserialization](./deserialization)

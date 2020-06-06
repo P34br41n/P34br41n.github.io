@@ -45,4 +45,6 @@ defaults:
       toc: true
       toc_label: "What's on this page?"
       sidebar:
+        title: "Where to next?"
         nav: "home"
+

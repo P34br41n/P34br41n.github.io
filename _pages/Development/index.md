@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Development
 ---
 
@@ -9,17 +8,25 @@ Anything "DevSecOps", CI/CD, secure coding/libraries, ..., related will end up h
 
 ## I want to run stuff NOW!
 
+```
+Coming soon!
+```
 [Ansible](./Ansible/)
 
 [Docker](./Docker/)
 
-
 ## I need version control for my code!
 
+```
+Coming soon!
+```
 [Git](./git)
 
 [SVN](./svn)
 
 ## I want to test my code just in case!
 
+```
+Coming soon!
+```
 [CI/CD](./CI-CD/)

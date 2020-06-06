@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Social Engineering
 ---
 
@@ -10,4 +9,7 @@ Phishing templates, psychology, ..., will end up here.
 ## Phishing
 Need people to run your stuff on their computer?
 
+```
+Coming soon!
+```
 [click me!](./Phishing)

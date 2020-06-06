@@ -7,7 +7,6 @@ No one ever reads the wall of text on the home page, I'm also too lazy to write 
 
 Clicky clicky the left link thingy and get on with it! :p
 
-
 ---
 This is a work in progress, there are lots of empty pages that are there as placeholders, so if you end up on one of them, come back later!
 

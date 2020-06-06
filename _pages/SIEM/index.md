@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Security Information and Event Management
 ---
 
