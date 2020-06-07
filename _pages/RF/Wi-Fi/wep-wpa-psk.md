@@ -1,9 +1,8 @@
 ---
-title: After
+title: WEP/WPA-PSK
 ---
 
 ## What is this about?
-Shit happened, now what?
 
 ```
 Nothing here yet!

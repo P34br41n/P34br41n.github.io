@@ -1,9 +1,9 @@
 ---
-title: After
+title: PEBKAC!
 ---
 
 ## What is this about?
-Shit happened, now what?
+We're going phishing for Wi-Fi creds!
 
 ```
 Nothing here yet!

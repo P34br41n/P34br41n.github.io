@@ -5,6 +5,22 @@ title: Tools
 # What is this about?
 Any tool I use on the daily or have used one day back in the 90s will end up here.
 
+## AP
+Why go for a physical when you can do it over-the-air?
+
+```
+Coming soon!
+```
+[click me!](./AP/)
+
+## Cracking
+So many passwords, so little time...
+
+```
+Coming soon!
+```
+[click me!](./Cracking/)
+
 ## Frameworks
 It's an all-in-one thing, better check them out!
 

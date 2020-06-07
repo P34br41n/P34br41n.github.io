@@ -1,9 +1,8 @@
 ---
-title: After
+title: PEAP/EAP-TTLS
 ---
 
 ## What is this about?
-Shit happened, now what?
 
 ```
 Nothing here yet!

@@ -9,6 +9,8 @@ home:
     url: /Development/
   - title: "DFIR"
     url: /DFIR/
+  - title: "GRC"
+    url: /GRC/
   - title: "Hardening"
     url: /Hardening/
   - title: "Identity Access Management"
