@@ -20,7 +20,7 @@ ip link set <wifi-interface> up
 ```
 You can also set Tx power with
 ```
-iw wlan0 set txpower fixed 3000
+iw <wifi-interface> set txpower fixed 3000
 ```
 But you'll end up breaking your stuff if you push it too hard, so RTFM first!!!
 
