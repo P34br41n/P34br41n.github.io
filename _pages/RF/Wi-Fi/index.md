@@ -11,7 +11,7 @@ All you need to check is if it can switch to monitor mode and the output power i
 You'll probably need [this](https://github.com/aircrack-ng/rtl8812au) too ;)
 
 # Monitor Mode
-Just copy paste change the <wifi-interface> to match yours and be done with it...
+Just copy paste change the wifi-interface to match yours and be done with it...
 ```
 airmon-ng check kill
 ip link set <wifi-interface> down
