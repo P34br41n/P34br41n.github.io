@@ -1,5 +1,5 @@
 ---
-title: WEP/WPA-PSK
+title: WEP
 ---
 
 ## What is this about?
