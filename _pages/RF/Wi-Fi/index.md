@@ -50,6 +50,13 @@ Simple warm up here too!
 ## Evil twin attack
 Are you me? Am I you? Can you scream louder than me?
 
+### The Setup
+I would recommend buying an [OpenWRT](https://openwrt.org/) compatible Wi-Fi router like one from [GL.inet](https://www.gl-inet.com/), and setting it up so that you just need to flip a switch to start pwning. They're small, can run on powerbanks AND have native OpenWRT support... What more to ask for a cheap version of a [Pineapple](https://shop.hak5.org/products/wifi-pineapple?variant=81044992)?
+
+As of now, and until I update my setup for the walkthrough I usually go for a [https://github.com/wifiphisher/wifiphisher](https://github.com/wifiphisher/wifiphisher) on a [Raspberrypi](https://www.raspberrypi.org/), which is more or less the same. Yes you can easily do it through iptables, some config, rerouting, ..., but hey where's the fun in that?
+
+You can do this with only one Wi-Fi interface, but won't be able to run the deauth part of it, so get at least one extra usb dongle or something...
+
 ### PEBKAC
 [click me!](./pebkac)
 
