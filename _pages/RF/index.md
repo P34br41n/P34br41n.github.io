@@ -7,6 +7,12 @@ Having RF jamming equipment just because is illegal more or less everywhere, act
 # What is this about?
 RTL-SDR, Wi-Fi, Bluetooth, Zigbee, ..., will end up here.
 
+## Bluetooth
+Danish tribes and their unification into one kingdom. No wait that's the other Bluetooth stuff...
+
+[click me!](./Bluetooth/)
+
+
 ## Cell phones
 ### 2G Downgrade attack
 Oh your MFA goes through SMS so it's all cool? You're still living in some part of the world that hasn't phased out 2G network and/or your phone is compatible with 2G?

@@ -6,7 +6,7 @@ title: About
 A random dude in Cybersec with too much spare time
 
 ## What is this all about?
-Some knowledge about things and thingies that I use on the daily on the job
+Some knowledge about things and thingies that I use/have used on the job
 
 ## Where are you based?
 Canada ATM
@@ -25,3 +25,6 @@ Yes
 
 ## Tips?
 I'll set some stuff up eventually I suppose...
+
+## Contact?
+Sure, but you're going to have to find out how ;)
