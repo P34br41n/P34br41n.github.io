@@ -52,7 +52,7 @@ If an AP around you is vulnerable then the following message will appear, this m
 12:38:04   2 3c8d203ac2e6 001122334455 target [EAPOL:M3M4ZEROED EAPOLTIME:3014 RC:3 KDV:2]
 12:39:45   2 3c71bfc2b1c8 001122334455 target [PMKID:<THE SHA1 HASH YOU'RE LOOKING FOR> KDV:2]
 ```
-Which means that the AP with the mac address 001122334455 has sent its pmkid to you!
+Which means that the AP with the BSSID "00:11:22:33:44:55" and ESSID "target" has sent its pmkid to you!
 
 ### Convert and crack
 Check the hcxpcaptool options out, this is for hashcat 16800 mode

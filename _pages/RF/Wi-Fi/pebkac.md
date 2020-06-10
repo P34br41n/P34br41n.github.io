@@ -4,7 +4,7 @@ title: PEBKAC!
 
 ## What is this about?
 We're going phishing for creds through Wi-Fi!
-For simplicity we're going to stick to the basic scenarios offered by wiphisher. Know that these should be customized to the target for a higher chance of it working. 
+For simplicity we're going to stick to the basic scenarios offered by wifiphisher. Know that these should be customized to the target for a higher chance of it working. 
 
 No, I will not be sharing my templates, modules, scenarios and stuff here :p
 
@@ -12,7 +12,7 @@ No, I will not be sharing my templates, modules, scenarios and stuff here :p
 Read [this](https://wifiphisher.readthedocs.io/en/latest/extensions.html) and [that](https://wifiphisher.readthedocs.io/en/latest/custom_phishing_scenario.html) and you should be good to build your own stuff.
 
 ### The examples
-Here are a couple of example given by wiphisher to show what it's able to do. Don't be stupid and start clicking things and entering your creds now...
+Here are a couple of example given by wifiphisher to show what it's able to do. Don't be stupid and start clicking things and entering your creds now...
 
 [Firmware-update](https://wifiphisher.org/ps/firmware-upgrade/)
 
