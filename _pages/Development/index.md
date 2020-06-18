@@ -8,12 +8,11 @@ Anything "DevSecOps", CI/CD, secure coding/libraries, ..., related will end up h
 
 ## I want to run stuff NOW!
 
+[Docker](./Docker/)
 ```
 Coming soon!
 ```
 [Ansible](./Ansible/)
-
-[Docker](./Docker/)
 
 ## I need version control for my code!
 
