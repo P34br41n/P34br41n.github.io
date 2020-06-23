@@ -24,7 +24,7 @@ This can exist in many forms but it's basically a database that gets filled up w
 Then you can start creating client/scenario specific variants. 
 
 ### Notes
-Got a list of passwords and need to put them somewhere you can access? Don't know where to put that nmap scan result? Guess you need [note taking](https://www.giuspen.com/cherrytree/) stuff then... Don't forget the DB password, you never know ;)
+Got a list of passwords and need to put them somewhere you can access? Don't know where to put that nmap scan result? Guess you need [note taking](https://www.giuspen.com/cherrytree/) [stuff](https://github.com/laurent22/joplin) then... Don't forget the DB password, you never know ;)
 
 ### Screenshots
 Yes, your OS screenshot system is enough, but hey we've all been through MSPaint to hide PII and add arrows, but there's a better way... Checkout [Flameshot](https://github.com/lupoDharkael/flameshot) and [Greenshot](https://getgreenshot.org/) for starters. 
