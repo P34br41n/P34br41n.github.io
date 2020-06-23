@@ -16,4 +16,4 @@ Setup your monitoring interface and run the following command, everything comes 
 ```
 wesside-ng -v the-target-BSSID -i mon0
 ```
-This is going to be a couple of minutes long tops, will drop the password on your screen and you're done.
+This is going to be a couple of minutes long tops, it will drop the password on your screen and you're done.

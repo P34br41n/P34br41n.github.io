@@ -11,7 +11,7 @@ Read [this](https://en.wikipedia.org/wiki/Lightweight_Extensible_Authentication_
 ## Lets oneshot this
 
 ### Dumping traffic
-Last time I checked LEAP was as used as much as WEP, so yeah this is going to be a short one!
+Last time I checked LEAP was used as much as WEP, so yeah this is going to be a short one!
 
 Get your target's info with a simple
 ```
@@ -25,7 +25,7 @@ You can run this directly on asleap with the -i option though, this is just an e
 
 ### Breaking LEAP
 
-Get AsleaP by running a
+Get Asleap by running a
 ```
 git clone https://github.com/joswr1ght/asleap
 ```

@@ -6,7 +6,7 @@ title: PEAP/EAP-TTLS
 Going for a 2 for one here since the attack is basically the same...
 
 ## So what are we doing today?
-We're pulling out the big guns and aiming for the passwords in an EvilTwin scenario. But since this is somewhat a get framework and run options, I'll keep it short.
+We're pulling out the big guns and aiming for the passwords in an EvilTwin scenario. But since this is somewhat a *get framework and run with options* process, I'll keep it short.
 
 ### The Setup
 Install [EAPHammer](https://github.com/s0lst1c3/eaphammer). Read the docs too because there are multiple setups and attacks you can setup and run on this. This will be the most basic example only...

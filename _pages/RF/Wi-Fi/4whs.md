@@ -46,7 +46,7 @@ To start getting the whole package capture process and drop the resulting potato
 
 Now there are two options, you start your stuff, let it run and wait for someone to connect OR you start [deauthing](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) people with [mdk4](https://github.com/aircrack-ng/mdk4), aireplay-ng, or whatever tool you pick, but this is 10/10 visible to any network admin when it happens so plan it ahead...
 
-Eventually, anywhere between when you start and stop the previous process, you'll end up with the following message on the top top right of your terminal :p
+Eventually, anywhere between when you start and stop the previous process, you'll end up with the following message on the top right of your terminal :p
 ```
 CH 9 ][ Elapsed: 2 min ][ 2020–07–07 21:00 ][ WPA handshake: de:ad:be:ef:13:37
 ```
