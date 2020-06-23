@@ -168,13 +168,13 @@ make
 ```
 You might need to install *libnfnetlink-dev*, *pkg-config*, *libnl-3-dev*, *libnl-genl-3-dev* and possibly *docbook-utils* to make it work.
 
-To start the hotspot all you need now is to run a simple now
+To start the hotspot all you need now is to run a simple
 ```
 sudo ./hostapd-wpe hostapd-wpe.conf -dd
 ```
 
 #### The Network stuff
-There are many ways to setup a DHCP server and route everything correctly, this is just a minimal version so do as you please...
+There are many ways to setup a DHCP server and route everything correctly, this is just a minimal version, so do as you please...
 
 Your */etc/dnsmasq.conf* should look like this
 ```
