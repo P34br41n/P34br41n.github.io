@@ -17,9 +17,6 @@ Coming soon!
 [U2F](./u2f)
 
 ## PKIs
-Need something to manage your keys/certs? Well check this out!
+Need something to manage your keys/certs and stuff to do with them? Well check this out!
 
-```
-Coming soon!
-```
 [PKI](./PKI)

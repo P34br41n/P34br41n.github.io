@@ -21,7 +21,7 @@ The how is there:
 [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
 
 ## Testing your configuration
-If you're thinking "nah I'm good no need to do this", just run a simple [testssl.sh](https://testssl.sh/) on your website and start from there ;)
+If you're thinking *nah I'm good no need to do this*, just run a simple [testssl.sh](https://testssl.sh/) on your website and start from there ;)
 
 ## Client Cert Authentication
 A somewhat generic docker-compose.yml that I scraped together and tend to re-use as a skeleton before adding specifics and hardening it. Replace whatever you need to. This includes HAProxy and 2 httpd servers to test it out. You'll also need a server cert/user cert combo. 
