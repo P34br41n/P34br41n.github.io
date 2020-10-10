@@ -94,7 +94,7 @@ frontend http
     redirect scheme https code 301 if !{ ssl_fc }
 
 frontend https
-    bind :443 ssl crt /etc/ssl/combo.pem verify optional crt-ignore-err all crl-file /etc/ssl/ca-crl.pem
+    bind :443 ssl crt /etc/ssl/combo.pem verify optional crt-ignore-err all crl-file /etc/ssl/ca-crl.pem ca-file /etc/ssl/cacert.pem
     option httpclose
     option forwardfor
     use_backend app2 unless { ssl_c_verify 0 }
@@ -110,9 +110,9 @@ backend app2
     option httpchk GET /
     server srv2 app2:80
 ```
-ca_crl.pem is your revocation list
+ca_crl.pem is your revocation list, cacert.pem is your root chain/public key
 
-combo.pem is built with
+combo.pem is your standard server cert or is built with
 ```
 cat public.pem private.pem chain.pem > combo.pem
 ```
