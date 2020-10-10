@@ -1,9 +1,9 @@
 title: Running With Scissors
 description: Random Cybersecurity related things and thingies!!
 github_username: P34br41n
-url: "https://p34br41n.github.io/"
+url: "https://p34br41n.github.io"
+baseurl: "/"
 search: true
-
 
 plugins:
   - jekyll-include-cache
@@ -40,7 +40,6 @@ defaults:
       path: ""
       type: pages
     values:
-      read_time: true
       layout: single
       toc: true
       toc_label: "What's on this page?"
