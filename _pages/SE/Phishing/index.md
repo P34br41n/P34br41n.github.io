@@ -11,3 +11,5 @@ Coming soon!
 [Evilginx](./evilginx)
 
 [GoPhish](./gophish)
+
+[HTTTrack](./httrack)

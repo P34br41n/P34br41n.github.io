@@ -2,6 +2,10 @@
 layout: posts
 title: About
 ---
+
+## Disclamer
+Doing bad things is bad, I'm not responsible for your fuck-ups, broken/bricked stuff or even death due to improper handling, messing around with things, getting shot, ... So yeah, everything comes as is with no waranty. GG, GL, HF! :D
+
 ## Who are you?
 A random dude in Cybersec with too much spare time
 
@@ -24,7 +28,7 @@ Ctrl+F whatever you need
 Yes
 
 ## Tips?
-I'll set some stuff up eventually I suppose...
+I'll set some stuff up eventually I suppose... 
 
 ## Contact?
-Sure, but you're going to have to find out how ;)
+Sure, send a pull request or something and we can start from there ;)

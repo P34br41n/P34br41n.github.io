@@ -47,11 +47,6 @@ Here are some things to make your thingies easier to work with!
 
 [click me!](./Libraries/)
 
-## Toolbox
-Need a pricy thingy for your engagement and it's not in your budget? Better DIY it then!
-
-[click me!](./Toolbox/)
-
 ## Wordlists
 Too lazy to build you own? Well so am I 99% of the time!
 

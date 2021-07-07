@@ -14,6 +14,12 @@ Coming soon!
 ```
 [Ansible](./Ansible/)
 
+[Chef](./Chef/)
+
+[Puppet](./Puppet/)
+
+[Saltstack](./Saltstack/)
+
 ## I need version control for my code!
 
 ```

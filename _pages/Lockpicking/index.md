@@ -3,8 +3,8 @@ title: Lock-picking
 ---
 
 # What is this about?
-Opening locks, key impressioning, RFID, ..., will end up here.
+Opening locks, key impressioning, ..., will end up here.
 
 ```
-Nothing here yet...
+Nothing here yet!
 ```

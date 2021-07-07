@@ -1,5 +1,5 @@
 ---
-title: Ansible
+title: Puppet
 ---
 
 # What is this about?

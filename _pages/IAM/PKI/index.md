@@ -6,7 +6,7 @@ title: PKI
 Managing user keys through a centralized service, which makes it easier for everyone!
 
 ## Step 0
-Read [this wiki page](https://tools.ietf.org/html/rfc2459) and [this RFC](https://tools.ietf.org/html/rfc5280).
+Read [this wiki page](https://en.wikipedia.org/wiki/Public_key_infrastructure) and [this RFC](https://tools.ietf.org/html/rfc5280) and maybe some of [this](https://www.alvestrand.no/objectid/top.html)too.
 
 ## The basics
 Looking for that extra security in your network? Need to identify users in a way that's a bit more precise than just a login/password combo? Want some MFA but can't figure out how or don't have the budget? Well welcome to the certificate world!
@@ -57,6 +57,12 @@ Because of that and just to be sure that the revoked certificate cannot be used 
 The [OCSP](https://tools.ietf.org/html/rfc6960) is basically a CRL that you can query from to know if a certificate is still valid or not. This allows you to revoke a certificate and not have to wait for the CRL propagation to happen to deny access. It still is a good idea to push CRLs as a rollback method though, just in case the OCSP isn't accessible for whatever reason.
 
 If you don't have the need for it now, it's cool, you can always automate the push of the CRL and add this later on.
+
+### Simple Certificate Enrollment Protocol
+The [SCEP](https://tools.ietf.org/html/rfc8894) is a simple way to generate certificates for automated deployments. Usually the entity that's used to control, update and deploy stuff on your computers and servers will poke your PKI and be allowed to generate a certificate that can then be pushed to the endpoint you need it on. All of this can be done through SCEP.
+
+### Automated Certificate Management Environment
+The [ACME](https://tools.ietf.org/html/rfc8555) is a system used to automate interaction between web servers and CAs so that the certificates used for TLS can be kept valid without human interaction. Long story short if you need to update your web certificate and keep forgetting about it, you can be automate the process easily through [certbot](https://certbot.eff.org/) and you CA if it supports ACME.
 
 ### Securely storing the RootCA
 Follow these simple steps!
@@ -113,7 +119,7 @@ Which means that if you go for a RootCA that has a 10 year validity period, then
 Just forget about this if you're not in specific environments where everything supports it, just go for OCSP if your CRL gets too large and unmanageable, or replace the SubCA every so often to dump everything just in case you forgot to revoke some certs...
 
 #### Validity
-This is the thing, CRLs also have a validity period that makes them unusable after the time's up. So what you usually do is set the CRL to be auto generated and pushed a couple of times every day and have the validity set to a week. This allows for plenty of redundancy and revocation updates and if something crashes the next CRL update will probably pick it up. Worst case scenario you have a week to fix you stuff before everything goes to shit.
+This is the thing, CRLs also have a validity period that makes them unusable after the time's up. So what you usually do is set the CRL to be auto generated and pushed a couple of times every day and have the validity set to a week. This allows for plenty of redundancy and revocation updates and if something crashes the next CRL update will probably pick it up. Worst case scenario you have a week to fix your stuff before everything goes to shit.
 
 If you don't do this and you go for a CRL that's valid for a week and you publish it every week, then during an entire week revoked certificates will still be accepted. Even worse, if your stuff crashes and the new CRL isn't received on time then, depending on the system, users won't be able to do anything that requires certificate authentication until the new one is pushed because the CRL isn't valid and therefore every cert will be refused.
 

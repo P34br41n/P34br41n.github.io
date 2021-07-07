@@ -5,6 +5,8 @@ main:
     url: /about
 
 home: 
+  - title: "Cloud"
+    url: /Cloud/
   - title: "Development"
     url: /Development/
   - title: "DFIR"
@@ -13,6 +15,8 @@ home:
     url: /GRC/
   - title: "Hardening"
     url: /Hardening/
+  - title: "Hardware"
+    url: /Hardware/
   - title: "Identity Access Management"
     url: /IAM/
   - title: "IDS/IPS"
@@ -27,16 +31,16 @@ home:
     url: /Network/
   - title: "Pentesting"
     url: /Pentesting/
-  - title: "Radio Frequency"
-    url: /RF/
-  - title: "Reporting"
-    url: /Reporting/
   - title: "Reverse Engineering"
     url: /RE/
-  - title: "SIEM"
-    url: /SIEM/
+  - title: "Reporting"
+    url: /Reporting/
+  - title: "Radio Frequency"
+    url: /RF/
   - title: "Social Engineering"
     url: /SE/
+  - title: "SIEM"
+    url: /SIEM/
   - title: "Tools"
     url: /Tools/
   - title: "Web"
