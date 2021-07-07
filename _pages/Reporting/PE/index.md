@@ -117,6 +117,7 @@ The vulnerability matrix is built with **attack complexity** / **vuln criticity*
 ||hard|*you're targeted*|||*meh*|
 
 You can also reverse it and have the most critical top right instead of left, but hey your choice. When you fill it up, you're going to only drop the vuln-ID where it belongs. Which means that filling matrices up can and should be automated because it's a waste of time to do it by hand.
+
 Friendly note: Matrices don't mean much and a _medium_ vuln can wreck your entire shit a lot more than a high one sometimes, but hey who reads these aside from paper pushers anyway?
 
 #### Risk matrix
@@ -130,6 +131,7 @@ The risk matrix is build around **probability** / **impact**, this is just anoth
 ||rare|*shit happens*|||*will be ignored*| 
 
 The fun thing about this table is that the viewed goal is to push everything as low/rare as possible instead of patching it properly. This is the whole *theoretical* part of cybersec, which is quite often disconnected from how it's done... Filling the matrix up should also be automated.
+
 Friendly note: Matrices don't mean much and a _medium_ risk can wreck your entire shit a lot more than a high one sometimes, but hey who reads these aside from paper pushers anyway?
 
 #### Patching matrix
